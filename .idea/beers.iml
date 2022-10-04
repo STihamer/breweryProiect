@@ -5,5 +5,9 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="mssc-beer-order-service" exported="" />
+    <orderEntry type="module" module-name="mssc-beer-service" exported="" />
+    <orderEntry type="module" module-name="mssc-beer-inventory-service" exported="" />
+    <orderEntry type="module" module-name="mssc-brewery-bom" exported="" />
   </component>
 </module>

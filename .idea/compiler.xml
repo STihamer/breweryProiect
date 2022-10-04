@@ -56,7 +56,7 @@
       <module name="mssc-beer-inventory-service" options="-parameters -Amapstruct.defaultComponentModel=spring" />
       <module name="mssc-beer-order-service" options="-parameters -Amapstruct.defaultComponentModel=spring" />
       <module name="mssc-beer-service" options="-parameters -Amapstruct.defaultComponentModel=spring" />
-      <module name="mssc-brewery-bom" options="-parameters -Amapstruct.defaultComponentModel=spring" />
+      <module name="mssc-brewery-bom" options="" />
     </option>
   </component>
 </project>
