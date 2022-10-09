@@ -1,3 +1,4 @@
+package guru.sfg.beer.order.service.services;
 /*
  *  Copyright 2019 the original author or authors.
  *
@@ -15,11 +16,9 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package guru.sfg.beer.order.service.services;
 
-
-import guru.sfg.beer.order.service.web.model.BeerOrderDto;
-import guru.sfg.beer.order.service.web.model.BeerOrderPagedList;
+import guru.sfg.brewery.model.events.BeerOrderDto;
+import guru.sfg.brewery.model.events.BeerOrderPagedList;
 import org.springframework.data.domain.Pageable;
 
 import java.util.UUID;

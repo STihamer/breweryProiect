@@ -1,4 +1,4 @@
-/*
+package guru.sfg.beer.order.service.domain;/*
  *  Copyright 2019 the original author or authors.
  *
  * This program is free software: you can redistribute it and/or modify
@@ -14,7 +14,7 @@
  *     You should have received a copy of the GNU General Public License
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package guru.sfg.beer.order.service.domain;
+
 
 import lombok.Builder;
 import lombok.Getter;
@@ -41,8 +41,9 @@ import java.util.UUID;
 public class BeerOrder extends BaseEntity {
 
     @Builder
-    public BeerOrder(UUID id, Long version, Timestamp createdDate, Timestamp lastModifiedDate, String customerRef, Customer customer,
-                     Set<BeerOrderLine> beerOrderLines, OrderStatusEnum orderStatus,
+    public BeerOrder(UUID id, Long version, Timestamp createdDate, Timestamp lastModifiedDate, String customerRef,
+                     Customer customer,
+                     Set<BeerOrderLine> beerOrderLines, BeerOrderStatusEnum orderStatus,
                      String orderStatusCallbackUrl) {
         super(id, version, createdDate, lastModifiedDate);
         this.customerRef = customerRef;
@@ -61,6 +62,6 @@ public class BeerOrder extends BaseEntity {
     @Fetch(FetchMode.JOIN)
     private Set<BeerOrderLine> beerOrderLines;
 
-    private OrderStatusEnum orderStatus = OrderStatusEnum.NEW;
+    private BeerOrderStatusEnum orderStatus = BeerOrderStatusEnum.NEW;
     private String orderStatusCallbackUrl;
 }

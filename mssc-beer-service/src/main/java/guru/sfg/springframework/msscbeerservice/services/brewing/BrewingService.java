@@ -4,7 +4,7 @@ import guru.sfg.springframework.msscbeerservice.config.JmsConfig;
 import guru.sfg.springframework.msscbeerservice.domain.Beer;
 import guru.sfg.springframework.msscbeerservice.repositories.BeerRepository;
 import guru.sfg.springframework.msscbeerservice.services.inventory.BeerInventoryService;
-import guru.sfg.common.events.BrewBeerEvent;
+import guru.sfg.brewery.model.events.BrewBeerEvent;
 import guru.sfg.springframework.msscbeerservice.web.mappers.BeerMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

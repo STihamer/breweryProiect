@@ -1,4 +1,4 @@
-/*
+package guru.sfg.beer.inventory.service.domain;/*
  *  Copyright 2019 the original author or authors.
  *
  * This program is free software: you can redistribute it and/or modify
@@ -14,7 +14,7 @@
  *     You should have received a copy of the GNU General Public License
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package guru.sfg.beer.inventory.service.domain;
+
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

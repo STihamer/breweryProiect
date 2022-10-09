@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/mssc-beer-order-service/mssc-beer-order-service.iml" filepath="$PROJECT_DIR$/mssc-beer-order-service/mssc-beer-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/mssc-beer-service/mssc-beer-service.iml" filepath="$PROJECT_DIR$/mssc-beer-service/mssc-beer-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/mssc-brewery-bom/mssc-brewery-bom.iml" filepath="$PROJECT_DIR$/mssc-brewery-bom/mssc-brewery-bom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mssc-beer-order-service/mssc-ssm.iml" filepath="$PROJECT_DIR$/../mssc-beer-order-service/mssc-ssm.iml" />
     </modules>
   </component>
 </project>
