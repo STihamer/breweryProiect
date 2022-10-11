@@ -1,4 +1,4 @@
-package guru.sfg.brewery.model.events;
+package guru.sfg.brewery.model;
 
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;

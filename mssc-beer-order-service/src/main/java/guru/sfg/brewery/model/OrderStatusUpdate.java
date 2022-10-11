@@ -1,4 +1,4 @@
-package guru.sfg.brewery.model.events;/*
+package guru.sfg.brewery.model;/*
  *  Copyright 2019 the original author or authors.
  *
  * This program is free software: you can redistribute it and/or modify
@@ -16,6 +16,7 @@ package guru.sfg.brewery.model.events;/*
  */
 
 
+
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
@@ -30,10 +31,8 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class CustomerDto {
-
+public class OrderStatusUpdate {
     @JsonProperty("id")
-
     private UUID id = null;
 
     @JsonProperty("version")
@@ -47,6 +46,7 @@ public class CustomerDto {
     @JsonProperty("lastModifiedDate")
     private OffsetDateTime lastModifiedDate = null;
 
-    private String name;
-
+    private UUID orderId;
+    private String customerRef;
+    private String orderStatus;
 }
